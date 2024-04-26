@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#main-container{
+    height:auto;
+    width: 100%;
+    background-image:url(./assets/IN-en-20240415-popsignuptwoweeks-perspective_alpha_website_small\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 60px;
+    padding-inline: 80px;
+
+}
+.nav img{
+    height: 200px;
+    width: auto;
+}
+.nav span{
+    width: 20%;
+    display: flex;
+
+}
+.nav span button{
+    height: 30px;
+    width: 90px;
+    background-color: rgb(236, 8, 8);
+    border: none;
+    color: white;
+    border-radius: 4px;
+    
+}
+.nav span button:hover{
+    background-color: darkred;
+}
+#eng-btn{
+    width: 120px;
+    margin-right: 20px;
+    background-color: rgba(22, 22, 22, 0.918);
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+}
+#eng-btn:hover{
+    background-color: rgba(79, 79, 79, 0.805);
+}
+.text-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 200px;
+    text-align: center;
+}
+.text-section h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.text-section h4{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.text-section h6{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.text-section span {
+    width: 40%;
+    height: auto;
+}
+.text-section input{
+    height: 50px;
+    width: 400px;
+    background-color: rgba(13, 13, 13, 0.914);
+    border: 1px solid white;
+    padding-left: 20px;
+    border-radius: 4px;
+    color: white;
+}
+.text-section input:hover{
+    background-color: rgba(79, 79, 79, 0.805);
+    
+}
+.text-section button{
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.text-section button:hover{
+    background-color: darkred;
+}
+.line{
+    background-color: rgb(76, 75, 75);
+    height: 10px;
+    width: 100%;
+}
+.tv-sec{
+    background-color: black;
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding-block: 30px;
+    padding-inline: 40px;
+}
+.tv-sec .text-sec{
+    width: 50%;
+    height: auto;
+    display: flex;
+    padding-left: 90px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    
+    
+
+}
+.tv-sec .text-sec h1{
+    color: white;
+    font-size:40px;
+    margin-bottom: 20px;
+}
+.tv-sec .text-sec h6{
+    color: white;
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+.tv-sec .img-sec{
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+.tv-sec .img-sec img{
+    height:auto;
+    width: 550px;
+}
+
+.faq-sec{
+    height: auto;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 40px;
+}
+.faq-sec h1{
+    font-size: 50px;
+    color: white;
+}
+.faq-sec .faq-container{
+    height: auto;
+    width: 70%;
+    padding-block: 30px;
+}
+.faq-container .faq-box{
+    background-color: rgb(59, 59, 59);
+    height: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-inline: 20px;
+}
+.faq-container .faq-box:hover{
+    background-color: rgb(100, 99, 99);
+}
+.faq-box p{
+    font-size: 25px;
+}
+.faq-sec p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.faq-sec span{
+    width: 40%;
+    padding-block: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.faq-sec span input{
+    width: 400px;
+    height: 50px;
+    background-color: rgba(17, 17, 17, 0.87);
+    border: 1px solid white;
+    border-radius: 4px;
+    padding-inline: 20px;
+    font-size: 15px;
+    color: white;
+}
+.faq-sec span input:hover{
+    background-color:  rgba(79, 79, 79, 0.805);
+}
+.faq-sec button{
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.faq-sec button:hover{
+    background-color: darkred;
+}
+.footer-sec{
+   background-color: black;
+   padding-inline: 150px;
+   align-items: start;
+   padding-block: 50px;
+
+}
+.footer-sec p{
+    color: white;
+}
+.footer-sec p a{
+    color: white;
+    text-decoration: line;
+}
+.footer-container{
+    display: flex;
+    padding-block: 20px;
+    
+}
+.footer-container ul{
+    width: 30%;
+}
+.footer-container ul a{
+    text-decoration: line;
+    color: white;
+    font-size: 14px;
+    line-height: 40px;
+}
+.footer-sec button{
+    height: 30px;
+    width: 129px;
+    background-color: rgba(27, 27, 27, 0.892);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.footer-sec button:hover{
+    background-color:rgba(79, 79, 79, 0.805) ;
+}
+
+
+@media (max-width:768px) {
+    .main-container{
+        height: auto;
+        width: 100%;
+    }
+    .nav{
+        height: auto;
+        width: 100%;
+        padding-block: 0px;
+        padding-inline: 10px;
+    }
+    .nav img{
+        width: 40%;
+    }
+    .nav span{
+        width: 40%;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+    .nav span button{
+        margin-top: 10px;
+    }
+    .text-section{
+        padding-block: 30px;
+        
+    }
+    .text-section h1{
+        font-size: 40px;
+    }
+    .text-section h4{
+        font-size: 25px;
+    }
+    .text-section h6{
+        font-size: 20px;
+    }
+    .text-section span{
+        width: 100%;
+        
+    }
+    .text-section span input{
+        margin-bottom: 10px;
+    }
+    .tv-sec{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .tv-sec .text-sec{
+        width: 100%;
+        height: auto;
+        padding-left: 20px;
+        align-items: center;
+    }
+    .tv-sec .img-sec{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding-block: 30px;
+    }
+    .tv-sec .img-sec img{
+        width: 300px;
+        height: auto;
+    }
+    .faq-sec{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        padding-inline: 20px;
+    }
+    .faq-sec h1{
+        font-size: 30px;
+    }
+    .faq-sec p{
+        font-size: 20px;
+    }
+    .faq-sec .faq-container{
+        width: 100%;
+    }
+    .faq-sec span{
+        width: 90%;
+        padding-inline: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .faq-sec span input{
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    .footer-sec{
+        height: auto;
+        width: 100%;
+        padding-inline: 20px;
+    }
+    .footer-container{
+        width: 100%;
+        height: auto;
+        padding-inline:10px ;
+    }
+    .footer-container ul{
+        width: 30%;
+        height: auto;
+    }
+}
